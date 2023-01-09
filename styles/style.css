@@ -1,3 +1,5 @@
+@import url('https://fonts.cdnfonts.com/css/raleway-5');
+
 /*
 Colors:
 
@@ -6,3 +8,172 @@ Green: #00B172
 White: #FFF
 
 */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* my cs */
+body{
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 0.5px;
+    color: #1A1A1A;
+}
+
+
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    padding: 15px 30px;
+
+}
+
+.navbar ul {
+    display: flex;
+    align-items: center;
+    padding: 15px 30;
+}
+
+ul a{
+    padding: 0 10px;
+    text-decoration: none;
+    color: #1A1A1A;
+}
+
+#logo{
+    height: 50px;
+}
+.musicforeveryone{
+    background-image: url("../images/landing.jpg");
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+
+.bigtext{
+    font-size: 50px;
+    font-weight: 700;
+    padding: 10px 0;
+}
+
+
+.icons{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 10%;
+    text-align: center;
+}
+.icons img{
+    height: 100px;
+}
+
+h4{
+    color: #00B172;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 15px;
+}
+.box{
+    width: 200px;
+}
+
+h3{
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+    padding: 30px;
+    /* border-bottom: 4px solid #00B172; */
+    text-decoration: underline #00B172;
+    text-underline-offset: 10px;
+}
+
+.container{
+    background-color: #00B172;
+    padding: 60px 5%;
+    margin: 30px 10%;
+    color: #fff;
+}
+
+.yeezyTextImageContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+
+.miniTexts{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    font-weight: 200;
+}
+
+h5{
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px 0;
+}
+
+#spotifyIconWhite{
+    height: 100px;
+}
+
+
+#spotifyApp{
+    height: 450px;
+}
+
+.yeezyHeadline{
+    font-size: 30px;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+}
